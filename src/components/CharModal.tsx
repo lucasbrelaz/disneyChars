@@ -14,7 +14,7 @@ import IDisneyChar from "shared/IDisneyChar"
 import noImage from '../assets/img/no_image.webp'
 import Alert from '@mui/material/Alert'
 import Swal from 'sweetalert2'
-
+import './charModal.css'
 
 const CustomModal = (props: any) => {
   const [open, setOpen] = useState(false)
@@ -70,7 +70,7 @@ const CustomModal = (props: any) => {
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
-      <Box sx={styleModalBox}>
+      <Box sx={styleModalBox} className="charModalBox">
         {(char) ?
           <>
             <Typography id="modal-modal-title" variant="h4" component="h2" mb={2}>
