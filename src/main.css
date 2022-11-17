@@ -1,4 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.54);
   height: 100%;
   margin: 0;
+}
+
+li {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+h6 {
+  color: #37474f;
+}
+
+.text-secondary {
+  color: #78909c;
 }
