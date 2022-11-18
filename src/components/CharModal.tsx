@@ -51,7 +51,7 @@ const CustomModal = (props: any) => {
     width: 1 / 1.2,
     maxWidth: 450,
     boxSizing: 'border-box',
-    height: 1 / 2,
+    height: 1 / 1.2,
     overflowY: 'auto',
     bgcolor: '#FFF',
     boxShadow: 24,
