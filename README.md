@@ -1,6 +1,6 @@
-# React project Skeleton
+# Disney Char | React project
 
-Esqueleto para iniciar um projeto em react.
+Projeto em React consumindo a [DisneyApi](https://disneyapi.dev/)
 
 ## Inicialização
 
@@ -17,16 +17,22 @@ Após a instalação das dependências você precisa rodar o projeto localmente:
 npm run dev
 ```
 
-## Features
+## Comentários
 
-Segue abaixo lista do que temos instalado para utilizar nesse projeto e suas documentações:
+Escolhi utilizar o skeleton para poder aproveitar a continuidade de um projeto iniciado, mesmo que sendo básico (como um esqueleto).
 
-- react: https://reactjs.org/docs/getting-started.html
-- react-router-dom: https://reactrouter.com/en/main
-- axios: https://axios-http.com/docs/example
-- sweetalert2: https://sweetalert2.github.io/
-- @mui/material: https://mui.com/core/
-- typescript: https://www.typescriptlang.org/docs/
-- react-hook-form: https://react-hook-form.com/
-- @emotion/react: https://emotion.sh/docs/@emotion/react
-- @emotion/styled: https://emotion.sh/docs/styled
+É meu primeiro projeto em React, estou feliz em ter conseguido implementar o que o teste pedia e complementar com alguns detalhes extras.
+
+Adicionei uma animação no hover dos cards e ao abrir o modal.
+
+Consegui fazer a paginação. Essa parte ainda tem como melhorar quando eu aprender um pouco mais sobre React.
+
+Coloquei ícones nas informações do modal para facilitar a identificação dos itens da lista e o cérebro do leitor agrupar as informações semelhantes com mais facilidade.
+
+Tratei imagens indisponíveis com uma imagem customizada dizendo "Image Not Available". Algumas imagens aparecem cinza mas elas já vem assim da própria api. Tratei para que nenhum card ficasse com imagem quebrada.
+
+Utilizei o SweetAlert para mostrar uma mensagem de erro quando a api não responder.
+
+O primeiro personagem não tem dados na Api além de nome e imagem, tratei isso exibindo um alerta de informação com a mensagem "Não há registros para esse personagem".
+
+Isso é tudo, pessoal! Grato por lerem até aqui 👋🏻
